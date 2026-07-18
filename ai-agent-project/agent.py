@@ -1,5 +1,5 @@
-import json
-from utils.llm import chat, get_client, LLM_MODEL
+﻿import json
+from utils.llm import chat
 from tools.calculator import calculator, CALCULATOR_TOOL
 from tools.knowledge import search_knowledge, KNOWLEDGE_TOOL
 from tools.web_search import web_search, WEB_SEARCH_TOOL
@@ -70,3 +70,4 @@ class Agent:
 
     def clear_history(self):
         self.history = []
+
